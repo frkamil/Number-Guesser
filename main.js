@@ -45,7 +45,6 @@ function correctAns() {
 }
 
 function wrongAns() {
-  alert("Oh no! I'm sorry.");
-  prompt("Is there any way I can improve?");
+  prompt("Oh no! I'm sorry. Is there any way I can improve?");
   alert("Thank you for your feedback.");
 }
