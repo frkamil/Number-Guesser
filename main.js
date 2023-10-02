@@ -38,8 +38,9 @@ function madlib() {
 }
 
 function correctAns() {
-  alert("Yay! I'm so glad I guessed correctly!");
-  prompt("Did you enjoy this experience?");
+  prompt(
+    "Yay! I'm so glad I guessed correctly! Did you enjoy this experience?"
+  );
   prompt("Is there any way I can improve?");
   alert("Thank you for your feedback.");
 }
