@@ -18,18 +18,19 @@ function madlib() {
   let number = document.getElementById("Number").value;
   let msg = `${number}`;
   if (
-    number &&
-    o1 &&
-    o2 &&
-    o3 &&
-    o4 &&
-    o5 &&
-    o6 &&
-    o7 &&
-    o8 &&
-    o9 &&
-    o10 &&
-    o11
+    1000 >= number &&
+    number >= 0 &&
+    (o1 === 1 || 2) &&
+    (o2 === 1 || 2) &&
+    (o3 === 1 || 2) &&
+    (o4 === 1 || 2) &&
+    (o5 === 1 || 2) &&
+    (o6 === 1 || 2) &&
+    (o7 === 1 || 2) &&
+    (o8 === 1 || 2) &&
+    (o9 === 1 || 2) &&
+    (o10 === 1 || 2) &&
+    (o11 === 1 || 2)
   ) {
     document.getElementById("output").innerHTML = msg;
   } else {
